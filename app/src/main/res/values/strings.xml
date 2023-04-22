@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="start">Грати</string>
+    <string name="back">Назад</string>
+    <string name="time">Час:</string>
+    <string name="pytanntya">Що об\'єднує ці 4 картинки?</string>
+</resources>
