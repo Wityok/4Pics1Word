@@ -4,4 +4,8 @@
     <string name="back">Назад</string>
     <string name="time">Час:</string>
     <string name="pytanntya">Що об\'єднує ці 4 картинки?</string>
+    <string name="close_level">В меню</string>
+    <string name="next">Продовжити</string>
+    <string name="win">Вітаємо! Ви пройшли рівень!</string>
+    <string name="bonus">Бонус +5</string>
 </resources>

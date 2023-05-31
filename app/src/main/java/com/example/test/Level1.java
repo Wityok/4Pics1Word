@@ -4,8 +4,11 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.util.Log;
@@ -361,17 +364,14 @@ public class Level1 extends AppCompatActivity {
         if (textv1.getText().toString().equals(l1) && textv2.getText().toString().equals(l2)
                 && textv3.getText().toString().equals(l3) && textv4.getText().toString().equals(l4)) {
 
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setMessage("Ваша відповідь правильна!!!"); // Встановлюємо текст повідомлення
-            builder.setCancelable(true); // Дозволяємо користувачу закрити вікно кнопкою Back
-            builder.setPositiveButton("В меню вибору рівня", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int id) {
-                    // Код, який виконується при натисканні на кнопку "OK"
-                }
-            });
+            Dialog dialog;
+            dialog = new Dialog(this);
+            dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+            dialog.setContentView(R.layout.dialogwindow);
+            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+            dialog.setCancelable(false);
+            dialog.show();
 
-            AlertDialog alert = builder.create();
-            alert.show();
         } else {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setMessage("Ваша відповідь неправильна!!!"); // Встановлюємо текст повідомлення
