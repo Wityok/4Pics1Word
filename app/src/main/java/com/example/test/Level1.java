@@ -1,25 +1,19 @@
 package com.example.test;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.google.android.material.snackbar.Snackbar;
 
 public class Level1 extends AppCompatActivity {
 
@@ -84,10 +78,60 @@ public class Level1 extends AppCompatActivity {
             Intent intent = new Intent(Level1.this, GameLevels.class);
             startActivity(intent);
             finish();
-        } catch (Exception e) {
+        } catch (Exception e) {}
+    }
 
+
+
+    public void close(View view) {
+        switch (view.getId()) {
+            case R.id.close_level_fail:
+            case R.id.close_level:
+                try {
+                    Intent intent = new Intent(Level1.this, GameLevels.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e) {}
+                break;
         }
     }
+
+    public void retry(View view) {
+        switch (view.getId()) {
+            case R.id.retry_level:
+                try {
+                    Intent intent = new Intent(Level1.this, Level1.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e) {}
+                break;
+        }
+    }
+
+//    public void next_level(View view) {
+//        switch (view.getId()) {
+//            case R.id.next_level:
+//                try {
+//                    Intent intent = new Intent(Level1.this, Level2.class);
+//                    startActivity(intent);
+//                    finish();
+//                } catch (Exception e) {}
+//                break;
+//        }
+//    }
+
+    public void bonus(View view) {
+        switch (view.getId()) {
+            case R.id.bonus:
+                try {
+                    Intent intent = new Intent(Level1.this, Bonus1.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e) {}
+                break;
+        }
+    }
+
 
 
 
@@ -373,17 +417,15 @@ public class Level1 extends AppCompatActivity {
             dialog.show();
 
         } else {
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setMessage("Ваша відповідь неправильна!!!"); // Встановлюємо текст повідомлення
-            builder.setCancelable(true); // Дозволяємо користувачу закрити вікно кнопкою Back
-            builder.setPositiveButton("Спробувати ще раз", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int id) {
-                    // Код, який виконується при натисканні на кнопку "OK"
-                }
-            });
 
-            AlertDialog alert = builder.create();
-            alert.show();
+            Dialog dialog;
+            dialog = new Dialog(this);
+            dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+            dialog.setContentView(R.layout.dialogwindowfail);
+            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+            dialog.setCancelable(false);
+            dialog.show();
+
         }
     }
 

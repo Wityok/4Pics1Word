@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -10,14 +11,14 @@
     android:layout_margin="10dp">
 
     <LinearLayout
-        android:id="@+id/pic_stars"
+        android:id="@+id/pic_money_fail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50px"
         >
 
         <ImageView
-            android:id="@+id/stars"
+            android:id="@+id/money_fail"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:src="@drawable/level1"
@@ -28,14 +29,16 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/container_text_fail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center">
 
         <TextView
+            android:id="@+id/text_fail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/win"
+            android:text="@string/lose"
             android:gravity="center"
             android:textSize="35dp"
             android:textStyle="bold"
@@ -50,7 +53,7 @@
 
 
     <LinearLayout
-        android:id="@+id/navigation"
+        android:id="@+id/navigation_fail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -61,7 +64,7 @@
         >
 
         <Button
-            android:id="@+id/close_level"
+            android:id="@+id/close_level_fail"
             android:layout_width="160dp"
             android:layout_height="50dp"
             android:background="@drawable/style_btn_stroke_black95_press_white"
@@ -74,44 +77,24 @@
         </Button>
 
         <Button
-            android:id="@+id/next_level"
+            android:id="@+id/retry_level"
             android:layout_width="160dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:background="@drawable/style_btn_stroke_black95_press_white"
             android:gravity="center"
-            android:text="@string/next"
-            android:textSize="35px"
-            android:textStyle="bold">
-
-        </Button>
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/bonus"
-            android:layout_width="160dp"
-            android:layout_height="50dp"
-            android:background="@drawable/style_btn_stroke_black95_press_white"
-            android:gravity="center"
-            android:text="@string/bonus"
+            android:text="@string/retry"
             android:textSize="35px"
             android:textStyle="bold"
-            android:layout_margin="10dp"
-            android:onClick="bonus"
-            >
+            android:onClick="retry">
 
         </Button>
 
+
+
     </LinearLayout>
+
+
 
 </LinearLayout>

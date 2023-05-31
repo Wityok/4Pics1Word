@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:id="@+id/dialog_background"
-    android:background="@drawable/dialog_theme1"
+    android:background="@drawable/level_theme"
     android:layout_gravity="center"
-    android:scaleType="centerCrop"
-    android:layout_margin="10dp">
+    android:scaleType="centerCrop">
 
     <LinearLayout
-        android:id="@+id/pic_stars"
+        android:id="@+id/pic_money_fail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50px"
         >
 
         <ImageView
-            android:id="@+id/stars"
+            android:id="@+id/money_fail"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="300dp"
             android:src="@drawable/level1"
             >
 
@@ -28,20 +28,22 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/container_quest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center">
 
         <TextView
+            android:id="@+id/quest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/win"
+            android:text="@string/questions"
             android:gravity="center"
-            android:textSize="35dp"
+            android:textSize="30dp"
             android:textStyle="bold"
             android:textColor="@color/white"
-            android:layout_marginTop="15dp"
-            android:paddingBottom="5dp"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="20dp"
             android:layout_gravity="center">
 
         </TextView>
@@ -50,7 +52,51 @@
 
 
     <LinearLayout
-        android:id="@+id/navigation"
+        android:id="@+id/container_answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="0dp"
+
+        >
+
+        <Button
+            android:id="@+id/answer1"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:background="@drawable/style_btn_stroke_black95_press_white"
+            android:gravity="center"
+            android:text="Ocean"
+            android:textSize="35px"
+            android:textStyle="bold"
+            android:onClick="close">
+
+        </Button>
+
+        <Button
+            android:id="@+id/answer2"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/style_btn_stroke_black95_press_white"
+            android:gravity="center"
+            android:text="Money"
+            android:textSize="35px"
+            android:textStyle="bold"
+            android:onClick="retry">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/container_answer2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -61,12 +107,12 @@
         >
 
         <Button
-            android:id="@+id/close_level"
+            android:id="@+id/answer3"
             android:layout_width="160dp"
             android:layout_height="50dp"
             android:background="@drawable/style_btn_stroke_black95_press_white"
             android:gravity="center"
-            android:text="@string/close_level"
+            android:text="Bicycle"
             android:textSize="35px"
             android:textStyle="bold"
             android:onClick="close">
@@ -74,44 +120,24 @@
         </Button>
 
         <Button
-            android:id="@+id/next_level"
+            android:id="@+id/answer4"
             android:layout_width="160dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:background="@drawable/style_btn_stroke_black95_press_white"
             android:gravity="center"
-            android:text="@string/next"
-            android:textSize="35px"
-            android:textStyle="bold">
-
-        </Button>
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/bonus"
-            android:layout_width="160dp"
-            android:layout_height="50dp"
-            android:background="@drawable/style_btn_stroke_black95_press_white"
-            android:gravity="center"
-            android:text="@string/bonus"
+            android:text="Sea"
             android:textSize="35px"
             android:textStyle="bold"
-            android:layout_margin="10dp"
-            android:onClick="bonus"
-            >
+            android:onClick="retry">
 
         </Button>
 
+
+
     </LinearLayout>
+
+
 
 </LinearLayout>
