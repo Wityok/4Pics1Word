@@ -17,10 +17,9 @@
         >
 
         <ImageView
-            android:id="@+id/stars"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/coin"
+            android:src="@drawable/coin2"
             android:layout_marginTop="20dp"
             >
 
@@ -36,7 +35,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/win"
+            android:text="@string/win_bonus"
             android:gravity="center"
             android:textSize="35dp"
             android:textStyle="bold"
@@ -54,7 +53,7 @@
         android:id="@+id/navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="0dp"
@@ -62,7 +61,7 @@
         >
 
         <Button
-            android:id="@+id/close_level"
+            android:id="@+id/bonus_close_level"
             android:layout_width="160dp"
             android:layout_height="50dp"
             android:background="@drawable/style_btn_stroke_black95_press_white"
@@ -75,7 +74,7 @@
         </Button>
 
         <Button
-            android:id="@+id/next_level"
+            android:id="@+id/bonus_next_level"
             android:layout_width="160dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -85,32 +84,7 @@
             android:text="@string/next"
             android:textSize="35px"
             android:textStyle="bold"
-            android:onClick="next_level">
-
-        </Button>
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/bonus"
-            android:layout_width="160dp"
-            android:layout_height="50dp"
-            android:background="@drawable/style_btn_stroke_black95_press_white"
-            android:gravity="center"
-            android:text="@string/bonus"
-            android:textSize="35px"
-            android:textStyle="bold"
-            android:layout_margin="10dp"
-            android:onClick="bonus"
-            >
+            android:onClick="bonus_next_level">
 
         </Button>
 

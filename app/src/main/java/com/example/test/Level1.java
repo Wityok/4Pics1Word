@@ -40,23 +40,6 @@ public class Level1 extends AppCompatActivity {
         textv4 = findViewById(R.id.textv4);
 
 
-        TextView timer = findViewById(R.id.timer);
-        new CountDownTimer(180000, 1000) {
-
-            public void onTick(long millisUntilFinished) {
-                long seconds = millisUntilFinished / 1000;
-                String time = String.format("%02d:%02d", seconds / 60, seconds % 60);
-                timer.setText(time); // textView - це елемент, де відображається час
-            }
-
-            public void onFinish() {
-                timer.setText("00:00");
-            }
-
-        }.start();
-
-
-
         TextView textView1 = (TextView) findViewById(R.id.back_level);
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -108,17 +91,17 @@ public class Level1 extends AppCompatActivity {
         }
     }
 
-//    public void next_level(View view) {
-//        switch (view.getId()) {
-//            case R.id.next_level:
-//                try {
-//                    Intent intent = new Intent(Level1.this, Level2.class);
-//                    startActivity(intent);
-//                    finish();
-//                } catch (Exception e) {}
-//                break;
-//        }
-//    }
+    public void next_level(View view) {
+        switch (view.getId()) {
+            case R.id.next_level:
+                try {
+                    Intent intent = new Intent(Level1.this, Level2.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e) {}
+                break;
+        }
+    }
 
     public void bonus(View view) {
         switch (view.getId()) {

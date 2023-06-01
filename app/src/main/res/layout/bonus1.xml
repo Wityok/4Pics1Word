@@ -11,16 +11,16 @@
 
     <LinearLayout
         android:id="@+id/pic_money_fail"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50px"
-        >
+        android:layout_marginTop="50px">
 
         <ImageView
             android:id="@+id/money_fail"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:src="@drawable/level1"
+            android:src="@drawable/sea"
+            android:layout_margin="10dp"
             >
 
         </ImageView>
@@ -42,7 +42,7 @@
             android:textSize="30dp"
             android:textStyle="bold"
             android:textColor="@color/white"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="15dp"
             android:paddingBottom="20dp"
             android:layout_gravity="center">
 
@@ -55,7 +55,7 @@
         android:id="@+id/container_answer1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="55dp"
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="0dp"
@@ -71,7 +71,7 @@
             android:text="Ocean"
             android:textSize="35px"
             android:textStyle="bold"
-            android:onClick="close">
+            android:onClick="answer1">
 
         </Button>
 
@@ -86,7 +86,7 @@
             android:text="Money"
             android:textSize="35px"
             android:textStyle="bold"
-            android:onClick="retry">
+            android:onClick="answer2">
 
         </Button>
 
@@ -115,7 +115,7 @@
             android:text="Bicycle"
             android:textSize="35px"
             android:textStyle="bold"
-            android:onClick="close">
+            android:onClick="answer3">
 
         </Button>
 
@@ -130,7 +130,7 @@
             android:text="Sea"
             android:textSize="35px"
             android:textStyle="bold"
-            android:onClick="retry">
+            android:onClick="answer4">
 
         </Button>
 
