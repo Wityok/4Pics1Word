@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialog_background"
+    android:background="@drawable/level_theme"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop">
+
+    <LinearLayout
+        android:id="@+id/pic_money_fail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px">
+
+        <ImageView
+            android:id="@+id/money_fail"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/heat"
+            android:layout_margin="10dp"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_quest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/quest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/questions"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/container_answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="0dp"
+
+        >
+
+        <Button
+            android:id="@+id/answer1_L2"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:background="@drawable/style_btn_stroke_black95_press_white"
+            android:gravity="center"
+            android:text="Heat"
+            android:textSize="35px"
+            android:textStyle="bold"
+            android:onClick="answer1_L2">
+
+        </Button>
+
+        <Button
+            android:id="@+id/answer2_L2"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/style_btn_stroke_black95_press_white"
+            android:gravity="center"
+            android:text="Sun"
+            android:textSize="35px"
+            android:textStyle="bold"
+            android:onClick="answer2_L2">
+
+        </Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/container_answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="0dp"
+
+        >
+
+        <Button
+            android:id="@+id/answer3_L2"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:background="@drawable/style_btn_stroke_black95_press_white"
+            android:gravity="center"
+            android:text="Ice"
+            android:textSize="35px"
+            android:textStyle="bold"
+            android:onClick="answer3_L2">
+
+        </Button>
+
+        <Button
+            android:id="@+id/answer4_L2"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/style_btn_stroke_black95_press_white"
+            android:gravity="center"
+            android:text="Summer"
+            android:textSize="35px"
+            android:textStyle="bold"
+            android:onClick="answer4_L2">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

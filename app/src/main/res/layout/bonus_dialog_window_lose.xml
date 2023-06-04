@@ -83,7 +83,8 @@
             android:gravity="center"
             android:text="@string/next"
             android:textSize="35px"
-            android:textStyle="bold">
+            android:textStyle="bold"
+            android:onClick="bonus_next_level">
 
         </Button>
 

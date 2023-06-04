@@ -50,6 +50,13 @@ public class Level2 extends AppCompatActivity {
         textv4_2L = findViewById(R.id.textv4_2L);
         textv5_2L = findViewById(R.id.textv5_2L);
 
+        textv1_2L.setTextColor(getResources().getColor(R.color.white));
+        textv2_2L.setTextColor(getResources().getColor(R.color.white));
+        textv3_2L.setTextColor(getResources().getColor(R.color.white));
+        textv4_2L.setTextColor(getResources().getColor(R.color.white));
+        textv5_2L.setTextColor(getResources().getColor(R.color.white));
+
+
         TextView textView1 = (TextView) findViewById(R.id.back_level_2L);
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -113,17 +120,17 @@ public class Level2 extends AppCompatActivity {
         }
     }
 
-//    public void bonus(View view) {
-//        switch (view.getId()) {
-//            case R.id.bonus:
-//                try {
-//                    Intent intent = new Intent(Level2.this, Bonus2.class);
-//                    startActivity(intent);
-//                    finish();
-//                } catch (Exception e) {}
-//                break;
-//        }
-//    }
+    public void bonus(View view) {
+        switch (view.getId()) {
+            case R.id.bonus:
+                try {
+                    Intent intent = new Intent(Level2.this, Bonus2.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e) {}
+                break;
+        }
+    }
 
     public void clickbtn1_2L(View view) {
         String letter1 = textv1_2L.getText().toString();

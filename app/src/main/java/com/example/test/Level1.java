@@ -13,8 +13,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class Level1 extends AppCompatActivity {
 
@@ -31,7 +34,6 @@ public class Level1 extends AppCompatActivity {
         editor.apply();
     }
 
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +48,11 @@ public class Level1 extends AppCompatActivity {
         textv2_1L = findViewById(R.id.textv2L);
         textv3_1L = findViewById(R.id.textv3L);
         textv4_1L = findViewById(R.id.textv4L);
+
+        textv1_1L.setTextColor(getResources().getColor(R.color.white));
+        textv2_1L.setTextColor(getResources().getColor(R.color.white));
+        textv3_1L.setTextColor(getResources().getColor(R.color.white));
+        textv4_1L.setTextColor(getResources().getColor(R.color.white));
 
         TextView textView1 = (TextView) findViewById(R.id.back_level_2L);
         textView1.setOnClickListener(new View.OnClickListener() {
@@ -355,6 +362,8 @@ public class Level1 extends AppCompatActivity {
         }
     }
 
+
+
     public void clickbtn9_1L(View view) {
 
         String letter9 = textv1_1L.getText().toString();
@@ -383,6 +392,8 @@ public class Level1 extends AppCompatActivity {
             textv4_1L.setEnabled(false);
         }
     }
+
+
 
     public void clickbtncheck_1L(View view) {
         String l1 = "М";

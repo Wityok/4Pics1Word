@@ -35,7 +35,8 @@
             android:inputType="textPersonName"
             android:text=""
             android:textAlignment="center"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:theme="@style/LockedEditText"/>
 
         <EditText
             android:id="@+id/textv2L"
@@ -47,6 +48,7 @@
             android:text=""
             android:textSize="20dp"
             android:textAlignment="center"
+            android:theme="@style/LockedEditText"
             />
 
         <EditText
@@ -59,7 +61,7 @@
             android:text=""
             android:textSize="20dp"
             android:textAlignment="center"
-            />
+            android:theme="@style/LockedEditText"/>
 
         <EditText
             android:id="@+id/textv4L"
@@ -71,7 +73,7 @@
             android:text=""
             android:textSize="20dp"
             android:textAlignment="center"
-            />
+            android:theme="@style/LockedEditText"/>
 
     </LinearLayout>
 

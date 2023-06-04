@@ -23,6 +23,7 @@ public class GameLevels extends AppCompatActivity {
         return sharedPreferences.getInt("coinCount", 0);
     }
 
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,8 +101,8 @@ public class GameLevels extends AppCompatActivity {
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                    WindowManager.LayoutParams.FLAG_FULLSCREEN);
-    }
 
+    }
     @Override
     public void onBackPressed() {
         try{
