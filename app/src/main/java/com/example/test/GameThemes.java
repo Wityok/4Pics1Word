@@ -1,6 +1,8 @@
 package com.example.test;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -12,10 +14,26 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class GameThemes extends AppCompatActivity {
 
+    private TextView coinView;
+
+    private int loadCoinCount(){
+        SharedPreferences sharedPreferences =
+                getSharedPreferences("CoinPref",Context.MODE_PRIVATE);
+        return sharedPreferences.getInt("coinCount", 0);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gametheme);
+
+        int coinCount = loadCoinCount();
+
+        CoinManager.setCoinCount(coinCount);
+
+        coinView = findViewById(R.id.coinTextView);
+        coinView.setText(String.valueOf(coinCount));
+
 
         Button back = (Button) findViewById(R.id.button_back1);
         back.setOnClickListener(new View.OnClickListener() {

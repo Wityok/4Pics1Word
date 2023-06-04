@@ -16,7 +16,7 @@
         android:src="@drawable/level_theme" />
 
     <LinearLayout
-        android:id="@+id/editbtn"
+        android:id="@+id/editbtn_3L"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -26,7 +26,7 @@
 
 
         <EditText
-            android:id="@+id/textv1_2L"
+            android:id="@+id/textv1_3L"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
@@ -38,7 +38,7 @@
             android:textSize="20dp" />
 
         <EditText
-            android:id="@+id/textv2_2L"
+            android:id="@+id/textv2_3L"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -50,7 +50,7 @@
             />
 
         <EditText
-            android:id="@+id/textv3_2L"
+            android:id="@+id/textv3_3L"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -62,19 +62,7 @@
             />
 
         <EditText
-            android:id="@+id/textv4_2L"
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text=""
-            android:textSize="20dp"
-            android:textAlignment="center"
-            />
-
-        <EditText
-            android:id="@+id/textv5_2L"
+            android:id="@+id/textv4_3L"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -103,7 +91,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/back_level_2L"
+                android:id="@+id/back_level_3L"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -128,14 +116,14 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/fourpics2"
+        android:id="@+id/fourpics1"
         android:layout_width="361dp"
         android:layout_height="408dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
         android:minWidth="400dp"
         android:minHeight="400dp"
-        app:srcCompat="@drawable/level2" />
+        app:srcCompat="@drawable/level3" />
 
     <LinearLayout
         android:id="@+id/btn_letters"
@@ -153,67 +141,67 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_text_letter1_2L"
+                android:id="@+id/btn_text_letter1_3L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn1_2L"
-                android:text="А"
-                android:textColor="@color/white"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/btn_text_letter2_2L"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/button_gamethemes"
-                android:gravity="center"
-                android:onClick="clickbtn2_2L"
+                android:onClick="clickbtn1_3L"
                 android:text="Р"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter3_2L"
+                android:id="@+id/btn_text_letter2_3L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn3_2L"
-                android:text="К"
+                android:onClick="clickbtn2_3L"
+                android:text="Д"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_text_letter3_3L"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_gamethemes"
+                android:gravity="center"
+                android:onClick="clickbtn3_3L"
+                android:text="Я"
                 android:padding="1dp"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter4_2L"
+                android:id="@+id/btn_text_letter4_3L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn4_2L"
-                android:text="П"
+                android:onClick="clickbtn4_3L"
+                android:text="Ь"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter5_2L"
+                android:id="@+id/btn_text_letter5_3L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn5_2L"
-                android:text="Д"
+                android:onClick="clickbtn5_3L"
+                android:text="Л"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold">
@@ -222,7 +210,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/button_leter2_2L"
+            android:id="@+id/button_leter2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -230,66 +218,66 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_text_letter6_2L"
+                android:id="@+id/btn_text_letter6_3L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn6_2L"
-                android:text="Ф"
+                android:onClick="clickbtn6_3L"
+                android:text="Ч"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_text_letter7_3L"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_gamethemes"
+                android:gravity="center"
+                android:onClick="clickbtn7_3L"
+                android:text="Ж"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:padding="1dp"/>
+                android:padding="1px"/>
 
             <Button
-                android:id="@+id/btn_text_letter7_2L"
+                android:id="@+id/btn_text_letter8_3L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn7_2L"
-                android:text="С"
+                android:onClick="clickbtn8_3L"
+                android:text="П"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter8_2L"
+                android:id="@+id/btn_text_letter9_3L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn8_2L"
-                android:text="Е"
+                android:onClick="clickbtn9_3L"
+                android:text="Б"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter9_2L"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/button_gamethemes"
-                android:gravity="center"
-                android:onClick="clickbtn9_2L"
-                android:text="Х"
-                android:textColor="@color/white"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/btn_text_check2_2L"
+                android:id="@+id/btn_text_check_3L"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtncheck_2L"
+                android:onClick="clickbtncheck_3L"
                 android:text="Готово"
                 android:textColor="@color/white"
                 android:textSize="18sp"

@@ -16,6 +16,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/new_background" />
 
+
     <LinearLayout
         android:id="@+id/startLayout"
         android:layout_width="wrap_content"

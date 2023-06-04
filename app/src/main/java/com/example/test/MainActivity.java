@@ -9,13 +9,17 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
     private long backPressedTime;
     private Toast backToast;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,5 +59,6 @@ public class MainActivity extends AppCompatActivity {
 
         backPressedTime = System.currentTimeMillis();
     }
+
 
 }

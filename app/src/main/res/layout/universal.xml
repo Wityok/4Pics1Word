@@ -16,7 +16,7 @@
         android:src="@drawable/level_theme" />
 
     <LinearLayout
-        android:id="@+id/editbtn"
+        android:id="@+id/editbtn_1L"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -26,7 +26,7 @@
 
 
         <EditText
-            android:id="@+id/textv1"
+            android:id="@+id/textv1L"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
@@ -38,7 +38,7 @@
             android:textSize="20dp" />
 
         <EditText
-            android:id="@+id/textv2"
+            android:id="@+id/textv2L"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -50,7 +50,7 @@
             />
 
         <EditText
-            android:id="@+id/textv3"
+            android:id="@+id/textv3L"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -62,7 +62,7 @@
             />
 
         <EditText
-            android:id="@+id/textv4"
+            android:id="@+id/textv4L"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -91,7 +91,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/back_level"
+                    android:id="@+id/back_level_2L"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
@@ -133,7 +133,7 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/button_leter"
+            android:id="@+id/button_leter_1L"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -141,39 +141,39 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_text_letter1"
+                android:id="@+id/btn_text_letter1_1L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn1"
+                android:onClick="clickbtn1_1L"
                 android:text="З"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter2"
+                android:id="@+id/btn_text_letter2_1L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn2"
+                android:onClick="clickbtn2_1L"
                 android:text="А"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter3"
+                android:id="@+id/btn_text_letter3_1L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn3"
+                android:onClick="clickbtn3_1L"
                 android:text="М"
                 android:padding="1dp"
                 android:textColor="@color/white"
@@ -181,26 +181,26 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter4"
+                android:id="@+id/btn_text_letter4_1L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn4"
+                android:onClick="clickbtn4_1L"
                 android:text="Е"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter5"
+                android:id="@+id/btn_text_letter5_1L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn5"
+                android:onClick="clickbtn5_1L"
                 android:text="Т"
                 android:textColor="@color/white"
                 android:textSize="24sp"
@@ -210,7 +210,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/button_leter2"
+            android:id="@+id/button_leter2_1L"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -218,65 +218,65 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_text_letter6"
+                android:id="@+id/btn_text_letter6_1L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn6"
+                android:onClick="clickbtn6_1L"
                 android:text="Д"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter7"
+                android:id="@+id/btn_text_letter7_1L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn7"
+                android:onClick="clickbtn7_1L"
                 android:text="О"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter8"
+                android:id="@+id/btn_text_letter8_1L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn8"
+                android:onClick="clickbtn8_1L"
                 android:text="Ь"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_letter9"
+                android:id="@+id/btn_text_letter9_1L"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtn9"
+                android:onClick="clickbtn9_1L"
                 android:text="Р"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_text_check"
+                android:id="@+id/btn_text_check_1L"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
-                android:onClick="clickbtncheck"
+                android:onClick="clickbtncheck_1L"
                 android:text="Готово"
                 android:textColor="@color/white"
                 android:textSize="18sp"
