@@ -13,11 +13,30 @@
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/wallpaper" />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/style_btn_stroke_black95_press_white"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:text="@string/back"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_margin="15sp"
+            />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="10sp"
         android:gravity="end"
         >
 
@@ -51,88 +70,64 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:id="@+id/container2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="85sp"
+            android:padding="0sp">
 
             <LinearLayout
-                android:id="@+id/container3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button_back1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/style_btn_stroke_black95_press_white"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"
-                    android:text="@string/back"
-                    android:textAllCaps="false"
-                    android:textColor="@color/white"
-                    android:textSize="24sp"
-                    />
-            </LinearLayout>
-
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
-                    android:id="@+id/container4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <LinearLayout
-                        android:id="@+id/line1"
+
+                    <ImageView
+                        android:id="@+id/imageClick1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
+                        android:layout_height="170sp"
+                        android:src="@drawable/sum">
 
-                        <TextView
-                            android:id="@+id/textView1"
-                            android:layout_width="300dp"
-                            android:layout_height="50dp"
-                            android:layout_marginVertical="10dp"
-                            android:background="@drawable/button_gamethemes"
-                            android:gravity="center"
-                            android:text="Літо"
-                            android:textColor="@color/white"
-                            android:textSize="24sp"
-                            android:textStyle="bold" />
+                    </ImageView>
 
-                        <TextView
-                            android:id="@+id/textView2"
-                            android:layout_width="300dp"
-                            android:layout_height="50dp"
-                            android:layout_marginVertical="10dp"
-                            android:background="@drawable/button_gamethemes"
-                            android:gravity="center"
-                            android:text="Скоро буде..."
-                            android:textColor="@color/white"
-                            android:textSize="24sp"
-                            android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/imageClick2"
+                        android:layout_width="match_parent"
+                        android:layout_height="170sp"
+                        android:src="@drawable/autumn"
+                        android:layout_marginTop="0.4sp">
+                    </ImageView>
 
-                        <TextView
-                            android:id="@+id/textView3"
-                            android:layout_width="300dp"
-                            android:layout_height="50dp"
-                            android:layout_marginVertical="10dp"
-                            android:background="@drawable/button_gamethemes"
-                            android:gravity="center"
-                            android:text="Скоро буде..."
-                            android:textColor="@color/white"
-                            android:textSize="24sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="170sp"
+                        android:src="@drawable/winter"
+                        android:layout_marginTop="0.4sp">
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="170sp"
+                        android:src="@drawable/spring"
+                        android:layout_marginTop="1sp">
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="170sp"
+                        android:src="@drawable/coming_soon1"
+                        android:layout_marginTop="2sp">
+                    </ImageView>
+
                 </LinearLayout>
-            </ScrollView>
-        </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
     </LinearLayout>
 </RelativeLayout>

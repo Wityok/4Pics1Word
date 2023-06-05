@@ -20,21 +20,21 @@
     <LinearLayout
         android:id="@+id/startLayout"
         android:layout_width="wrap_content"
-        android:layout_height="150dp"
+        android:layout_height="150sp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:padding="10dp"
+        android:padding="10sp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/buttonStart"
-            android:layout_width="228dp"
+            android:layout_width="228sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/style_btn_stroke_black95_press_white"
-            android:minHeight="48dp"
-            android:paddingHorizontal="20dp"
-            android:paddingVertical="1dp"
+            android:minHeight="48sp"
+            android:paddingHorizontal="20sp"
+            android:paddingVertical="1sp"
             android:text="@string/start"
             android:textColor="@color/white"
             android:textSize="20sp" />

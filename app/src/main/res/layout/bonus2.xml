@@ -18,9 +18,9 @@
         <ImageView
             android:id="@+id/money_fail"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="300sp"
             android:src="@drawable/heat"
-            android:layout_margin="10dp"
+            android:layout_margin="10sp"
             >
 
         </ImageView>
@@ -39,11 +39,11 @@
             android:layout_height="wrap_content"
             android:text="@string/questions"
             android:gravity="center"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textStyle="bold"
             android:textColor="@color/white"
-            android:layout_marginTop="15dp"
-            android:paddingBottom="20dp"
+            android:layout_marginTop="15sp"
+            android:paddingBottom="20sp"
             android:layout_gravity="center">
 
         </TextView>
@@ -55,17 +55,17 @@
         android:id="@+id/container_answer1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="55sp"
         android:gravity="center"
         android:orientation="horizontal"
-        android:padding="0dp"
+        android:padding="0sp"
 
         >
 
         <Button
             android:id="@+id/answer1_L2"
-            android:layout_width="160dp"
-            android:layout_height="50dp"
+            android:layout_width="160sp"
+            android:layout_height="50sp"
             android:background="@drawable/style_btn_stroke_black95_press_white"
             android:gravity="center"
             android:text="Heat"
@@ -77,10 +77,10 @@
 
         <Button
             android:id="@+id/answer2_L2"
-            android:layout_width="160dp"
-            android:layout_height="50dp"
+            android:layout_width="160sp"
+            android:layout_height="50sp"
             android:layout_gravity="center"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="10sp"
             android:background="@drawable/style_btn_stroke_black95_press_white"
             android:gravity="center"
             android:text="Sun"
@@ -97,17 +97,17 @@
         android:id="@+id/container_answer2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="30sp"
         android:gravity="center"
         android:orientation="horizontal"
-        android:padding="0dp"
+        android:padding="0sp"
 
         >
 
         <Button
             android:id="@+id/answer3_L2"
-            android:layout_width="160dp"
-            android:layout_height="50dp"
+            android:layout_width="160sp"
+            android:layout_height="50sp"
             android:background="@drawable/style_btn_stroke_black95_press_white"
             android:gravity="center"
             android:text="Ice"
@@ -119,10 +119,10 @@
 
         <Button
             android:id="@+id/answer4_L2"
-            android:layout_width="160dp"
-            android:layout_height="50dp"
+            android:layout_width="160sp"
+            android:layout_height="50sp"
             android:layout_gravity="center"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="10sp"
             android:background="@drawable/style_btn_stroke_black95_press_white"
             android:gravity="center"
             android:text="Summer"

@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -49,22 +50,17 @@ public class GameThemes extends AppCompatActivity {
             }
         });
 
-        TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setOnClickListener(new View.OnClickListener() {
+        ImageView imageClick1 = (ImageView) findViewById(R.id.imageClick1);
+        imageClick1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try{
                     Intent intent = new Intent(GameThemes.this, GameLevels.class);
                     startActivity(intent);
                     finish();
-                }catch (Exception e){
-
-                }
+                }catch (Exception e){}
             }
         });
-
-
-
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,

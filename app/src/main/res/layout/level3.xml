@@ -20,56 +20,56 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="550sp"
         android:orientation="horizontal">
 
 
         <EditText
             android:id="@+id/textv1_3L"
-            android:layout_width="70dp"
+            android:layout_width="70sp"
             android:layout_height="wrap_content"
-            android:layout_marginRight="5dp"
+            android:layout_marginRight="5sp"
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
             android:text=""
             android:textAlignment="center"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/textv2_3L"
-            android:layout_width="70dp"
+            android:layout_width="70sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
             android:text=""
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textAlignment="center"
             />
 
         <EditText
             android:id="@+id/textv3_3L"
-            android:layout_width="70dp"
+            android:layout_width="70sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
             android:text=""
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textAlignment="center"
             />
 
         <EditText
             android:id="@+id/textv4_3L"
-            android:layout_width="70dp"
+            android:layout_width="70sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
             android:text=""
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textAlignment="center"
             />
 
@@ -82,7 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="10sp">
 
         <LinearLayout
             android:id="@+id/linelevel1"
@@ -94,11 +94,11 @@
                 android:id="@+id/back_level_3L"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="10sp"
                 android:background="@drawable/button_stroke_white_press_blue"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
                 android:text="@string/back"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
@@ -110,19 +110,19 @@
             android:id="@+id/linelevel2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="10sp"
             android:orientation="horizontal">
         </LinearLayout>
     </LinearLayout>
 
     <ImageView
         android:id="@+id/fourpics1"
-        android:layout_width="361dp"
-        android:layout_height="408dp"
+        android:layout_width="361sp"
+        android:layout_height="408sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
-        android:minWidth="400dp"
-        android:minHeight="400dp"
+        android:layout_marginTop="80sp"
+        android:minWidth="400sp"
+        android:minHeight="400sp"
         app:srcCompat="@drawable/level3" />
 
     <LinearLayout
@@ -137,14 +137,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="10sp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btn_text_letter1_3L"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="10dp"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_marginRight="10sp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
                 android:onClick="clickbtn1_3L"
@@ -155,9 +155,9 @@
 
             <Button
                 android:id="@+id/btn_text_letter2_3L"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="10dp"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_marginRight="10sp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
                 android:onClick="clickbtn2_3L"
@@ -168,23 +168,23 @@
 
             <Button
                 android:id="@+id/btn_text_letter3_3L"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="10dp"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_marginRight="10sp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
                 android:onClick="clickbtn3_3L"
                 android:text="Я"
-                android:padding="1dp"
+                android:padding="1sp"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btn_text_letter4_3L"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="10dp"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_marginRight="10sp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
                 android:onClick="clickbtn4_3L"
@@ -195,9 +195,9 @@
 
             <Button
                 android:id="@+id/btn_text_letter5_3L"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="10dp"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_marginRight="10sp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
                 android:onClick="clickbtn5_3L"
@@ -214,14 +214,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="10sp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btn_text_letter6_3L"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="10dp"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_marginRight="10sp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
                 android:onClick="clickbtn6_3L"
@@ -232,9 +232,9 @@
 
             <Button
                 android:id="@+id/btn_text_letter7_3L"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="10dp"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_marginRight="10sp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
                 android:onClick="clickbtn7_3L"
@@ -246,9 +246,9 @@
 
             <Button
                 android:id="@+id/btn_text_letter8_3L"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="10dp"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_marginRight="10sp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
                 android:onClick="clickbtn8_3L"
@@ -259,9 +259,9 @@
 
             <Button
                 android:id="@+id/btn_text_letter9_3L"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginRight="10dp"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_marginRight="10sp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
                 android:onClick="clickbtn9_3L"
@@ -274,7 +274,7 @@
                 android:id="@+id/btn_text_check_3L"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="10sp"
                 android:background="@drawable/button_gamethemes"
                 android:gravity="center"
                 android:onClick="clickbtncheck_3L"
