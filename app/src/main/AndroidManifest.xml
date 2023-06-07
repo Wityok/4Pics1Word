@@ -20,13 +20,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Bonus6"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".Bonus5"
             android:exported="false">
             <meta-data

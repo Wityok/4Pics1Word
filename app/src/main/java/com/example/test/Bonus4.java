@@ -80,8 +80,6 @@ public class Bonus4 extends AppCompatActivity {
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 dialog.setCancelable(false);
                 dialog.show();
-                CoinManager.addCoins(5);
-                saveCoinCount(CoinManager.getCoinCount());
                 break;
         }
     }
@@ -95,6 +93,8 @@ public class Bonus4 extends AppCompatActivity {
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 dialog.setCancelable(false);
                 dialog.show();
+                CoinManager.addCoins(5);
+                saveCoinCount(CoinManager.getCoinCount());
                 break;
         }
     }
