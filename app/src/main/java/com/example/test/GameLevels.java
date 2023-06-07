@@ -86,17 +86,29 @@ public class GameLevels extends AppCompatActivity {
             }
         });
 
-//        TextView textView4 = (TextView) findViewById(R.id.textViewlevel4);
-//        textView4.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                try{
-//                    Intent intent = new Intent(GameLevels.this, Level4.class);
-//                    startActivity(intent);
-//                    finish();
-//                } catch (Exception e){}
-//            }
-//        });
+        TextView textView4 = (TextView) findViewById(R.id.textViewlevel4);
+        textView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                    Intent intent = new Intent(GameLevels.this, Level4.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e){}
+            }
+        });
+
+        TextView textView5 = (TextView) findViewById(R.id.textViewlevel5);
+        textView5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                    Intent intent = new Intent(GameLevels.this, Level5.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e){}
+            }
+        });
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,

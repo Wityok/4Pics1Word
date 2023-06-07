@@ -112,16 +112,16 @@ public class Bonus3 extends AppCompatActivity {
         }
     }
 
-//    public void bonus_next_level(View view) {
-//        switch (view.getId()) {
-//            case R.id.bonus_next_level:
-//                try {
-//                    Intent intent = new Intent(Bonus3.this, Level4.class);
-//                    startActivity(intent);
-//                    finish();
-//                } catch (Exception e) {}
-//                break;
-//        }
-//    }
+    public void bonus_next_level(View view) {
+        switch (view.getId()) {
+            case R.id.bonus_next_level:
+                try {
+                    Intent intent = new Intent(Bonus3.this, Level4.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e) {}
+                break;
+        }
+    }
 
 }

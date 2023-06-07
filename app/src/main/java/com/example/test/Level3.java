@@ -101,17 +101,17 @@ public class Level3 extends AppCompatActivity {
         }
     }
 
-//    public void next_level(View view) {
-//        switch (view.getId()) {
-//            case R.id.next_level:
-//                try {
-//                    Intent intent = new Intent(Level3.this, Level4.class);
-//                    startActivity(intent);
-//                    finish();
-//                } catch (Exception e) {}
-//                break;
-//        }
-//    }
+    public void next_level(View view) {
+        switch (view.getId()) {
+            case R.id.next_level:
+                try {
+                    Intent intent = new Intent(Level3.this, Level4.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e) {}
+                break;
+        }
+    }
 
     public void bonus(View view) {
         switch (view.getId()) {
